@@ -1,0 +1,23 @@
+.sidebar {
+    background: #2D3DDF;
+    width: 157px;
+    height: 1080px;
+    border-radius: 0px 30px 30px 0px;
+    text-align: center;    
+}
+
+.sidebar-logo {
+    padding-top: 34px;
+    margin-bottom: 219px;
+}
+
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.sidebar-item {
+    margin-bottom: 72px;
+}

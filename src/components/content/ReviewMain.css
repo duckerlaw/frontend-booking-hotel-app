@@ -1,0 +1,242 @@
+.review-main {
+  background: #fff;
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+.review-main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: first baseline;
+}
+
+.review-main-form {
+  width: 960px;
+}
+
+.review-main-yourbooking {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-main-yourbooking-header {
+  padding-bottom: 10px;
+}
+
+.review-main-yourbooking-title {
+  color: rgba(34, 31, 60, 1);
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.review-main-yourbooking-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+}
+
+.review-main-yourbooking-namehotel {
+  color: rgba(45, 61, 223, 1);
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.review-main-yourbooking-detail {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.review-main-yourbooking-img {
+  display: flex;
+  align-items: end;
+}
+
+.review-main-yourbooking-bookdate {
+  width: 960px;
+  height: 113px;
+  border-radius: 8px;
+  background-color: rgba(244, 247, 255, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5%;
+}
+
+.review-main-yourbooking-checktitle {
+  color: rgba(34, 31, 60, 1);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.review-main-yourbooking-checkdate {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.review-main-yourbooking-checkbtn {
+  width: 130px;
+  height: 50px;
+  background: rgba(183, 188, 243, 1);
+  border: none;
+  border-radius: 5px;
+  color: rgba(45, 61, 223, 1);
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.review-main-yourbooking-guestdetail-title {
+  color: rgba(34, 31, 60, 1);
+  font-size: 20px;
+  font-weight: 500;
+  /* margin-bottom: 10px; */
+}
+
+.review-main-yourbooking-guestdetail {
+  margin: 5px;
+}
+
+.review-main-yourbooking-guestdetail input {
+  /* width: 456px;
+  height: 52px; */
+  border-radius: 5px;
+  border: 2px solid rgba(183, 188, 243, 1);
+  padding-left: 20px;
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 18px;
+}
+
+.review-main-yourbooking-guestdetail-wrap input{
+  width: 456px;
+  height: 52px;
+}
+
+small {
+  font-size: 20px;
+}
+
+.addguest {
+  color: rgba(34, 31, 60, 1);
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.s-request {
+  color: rgba(34, 31, 60, 1);
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.s-request-text {
+  border: 1px solid rgba(183, 188, 243, 1);
+  border-radius: 5px;
+  width: 920px;
+  height: 130px;
+  background-color: #fff;
+  margin-left: 10px;
+}
+
+.review-main-yourbooking-con {
+  cursor: pointer;
+  border: none;
+  width: 280px;
+  height: 62px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: rgba(45, 61, 223, 1);
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.review-main-yourbooking-con:hover {
+  background-color: #fff;
+  color: #2d3ddf;
+  border: 2px solid #2d3ddf;
+  transition: 0.5s;
+}
+
+.review-main-cost {
+  margin-right: 5%;
+}
+
+.review-main-allcost {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+  /* padding: 10px; */
+}
+
+.review-main-costtitle {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 20px;
+}
+
+.review-main-costtitle p {
+  margin-bottom: 20px;
+}
+
+.review-main-allcost-title {
+  color: rgba(34, 31, 60, 1);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.review-main-costamount {
+  color: rgba(183, 188, 243, 1);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.review-main-costamount p {
+  margin-bottom: 20px;
+}
+
+.review-main-allcost-amount {
+  color: rgba(45, 61, 223, 1);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.review-main-warning {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.review-main-warning-title {
+  color: gba(34, 31, 60, 1);
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.review-main-warning-subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(34, 31, 60, 1);
+  margin-bottom: 25px;
+}
+
+.review-main-warning-detail {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.review-main-warning-from {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 16px;
+  font-weight: 500;
+}

@@ -1,0 +1,70 @@
+.taketour-container {
+  background-image: url('https://s3-alpha-sig.figma.com/img/b683/0a70/8f2bd0138a5f071e2369c9432355308e?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fRteEKYMkaC4LsxZm-oEz5zjcMwkmP5bdNctitP9Y~admxY6n80H1w-Wsk9nkwkqIYRBzpDgHGFGA9uHOC4nlPwxpzXzhfUTvHLJO0LrsYy9y7IJSRCeBu4P7lwaZ-vsRTRtsW5jpeHe-axsCsuANxHsRokXdzA-NJVIi3C-BlcQui~j~MMPBeKpRT7GV6ualCSoq2X0PbX~RqLvr1-SuLlFqjgVC4MeFTXObQ-2Cuhu3u-9Ow-rXYNEJUx~8WMa8BAdAIDD9DTm~BihONMzBfAJycF57CIH7da6S0AfdzI8sT6VMORBCuLc741-YDFh-FjeW2Y5QWs02KRA42OeAA__');  
+  background-size: cover;
+  background-position: center;
+  width: 980px;
+  height: 1080px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+}
+
+.taketour-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(45, 61, 223, 0),
+    rgba(23, 31, 112, 1)
+  );
+  pointer-events: none;
+  border-radius: 30px;
+}
+
+.taketour-plane-icon {
+  position: absolute;
+  top: 13%;
+  left: 40%;
+  font-size: 80px;
+  z-index: 1;
+  color: rgb(177, 177, 177);
+  transform: rotate(-15deg);
+}
+
+.taketour-main {
+  z-index: 2;
+  text-align: left;
+  position: absolute;
+  bottom: 12%;
+  left: 8%;
+}
+
+.taketour-header {
+  font-size: 63px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.taketour-description {
+  font-size: 33px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.take-tour-btn {
+  padding: 15px 30px;
+  background-color: rgba(255, 255, 255, 0.35);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

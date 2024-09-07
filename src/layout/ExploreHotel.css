@@ -1,0 +1,101 @@
+.explore-hotel {
+  background: rgba(244, 247, 255, 1);
+}
+
+.explore-hotel-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template:
+    's f f'
+    's b b'
+    's h h';
+}
+
+.sidebar {
+  grid-area: s;
+}
+
+.search-box {
+  grid-area: f;
+}
+
+.explore-hotel-bookingsearch {
+  grid-area: b;
+}
+
+.hotel-info {
+  grid-area: h;
+}
+
+.explore-hotel-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-right: 1%;
+  width: 100%;
+  height: 100%;
+  /* margin-left: 5%; */
+}
+
+.explore-hotel-row {
+  display: flex;
+}
+
+.explore-hotel-back {
+  font-size: 24px;
+  color: #000;
+  list-style: none;
+  text-decoration: none;
+  background-color: #ebedff;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.explore-hotel-back a {
+  color: #000;
+}
+
+.explore-hotel-nav .search-input {
+  width: 1630px;
+}
+
+.explore-hotel-bookingsearch {
+  margin-top: 20px;
+}
+
+.explore-hotel-bookingsearch .bookingform-section {
+  display: flex;
+}
+
+.explore-hotel-bookingsearch .bookingform-group {
+  width: 361px;
+}
+
+.explore-hotel-bookingsearch .bookingform-date {
+  width: 517px;
+}
+
+.explore-hotel-bookingsearch .bookingform-group {
+  width: 441px;
+}
+
+.explore-hotel-bookingsearch .bookingform-btnwrap {
+  width: 256px;
+}
+
+.explore-hotel-bookingsearch .bookingform-group input,
+.explore-hotel-bookingsearch .bookingform-date input,
+.explore-hotel-bookingsearch .bookingform-group input,
+.explore-hotel-bookingsearch .bookingform-btnwrap input {
+  border: 2px solid rgba(181, 181, 181, 1);
+  background-color: #fff;
+  color: rgba(34, 31, 60, 1);
+}

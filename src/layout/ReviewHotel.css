@@ -1,0 +1,29 @@
+.review-hotel {
+  background: rgba(244, 247, 255, 1);
+}
+
+.review-hotel-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template:
+    's f f'
+    's b b'
+    's v v';
+}
+
+.sidebar {
+  grid-area: s;
+}
+
+.search-box {
+  grid-area: f;
+}
+
+.explore-hotel-bookingsearch {
+  grid-area: b;
+}
+
+.review-main {
+  grid-area: v;
+}

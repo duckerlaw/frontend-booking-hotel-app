@@ -1,0 +1,33 @@
+.recommended {
+  margin-top: 116px;
+  margin-left: 5%;
+}
+
+.recommended-container {
+  box-shadow: -10px 0 15px rgba(0, 0, 0, 0.3);
+  width: 285px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.recommended-header {
+  color: rgba(34, 31, 60, 1);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.recommended-item {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.recommended-item-img img {
+  border-radius: 10px;
+}
+
+.recommended-item-detail {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(34, 31, 60, 1);
+}

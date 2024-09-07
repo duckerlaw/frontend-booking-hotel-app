@@ -1,0 +1,112 @@
+.payment-details-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-details-type {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-details-type-title {
+  color: rgba(34, 31, 60, 1);
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 10%;
+  margin-bottom: 50px;
+}
+
+.payment-detail-type-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+}
+
+.payment-details-type-icon {
+  cursor: pointer;
+  width: 188px;
+  height: 60px;
+  margin-bottom: 40px;
+}
+
+.payment-details-type-icon-use {
+  cursor: pointer;
+  width: 605px;
+  height: 110px;
+  margin-bottom: 40px;
+}
+
+.payment-details-amount {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 542px;
+  height: 260px;
+  margin-top: 10%;
+  margin-left: 10%;
+  /* margin-bottom: 20px; */
+  /* padding: 10px; */
+}
+
+.payment-details-costttitle {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 20px;
+}
+
+.payment-details-costttitle p {
+  margin-bottom: 20px;
+}
+
+.payment-details-allcost-title {
+  color: rgba(34, 31, 60, 1);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.payment-details-costamount {
+  color: rgba(183, 188, 243, 1);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.payment-details-costamount p {
+  margin-bottom: 20px;
+}
+
+.payment-details-allcost-amount {
+  color: rgba(45, 61, 223, 1);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.payment-details-amount-btn-wrap {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.payment-details-amount-btn {
+  cursor: pointer;
+  border: none;
+  width: 280px;
+  height: 62px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: rgba(45, 61, 223, 1);
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.payment-details-amount-btn:hover {
+  background-color: #fff;
+  color: #2d3ddf;
+  border: 2px solid #2d3ddf;
+  transition: 0.5s;
+}
+

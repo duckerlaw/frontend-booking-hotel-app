@@ -1,0 +1,24 @@
+.payments-container {
+  width: 100%;
+  display: flex;
+}
+
+.payments-main {
+  margin-left: 2%;
+  margin-top: 20px;
+}
+
+.payment-back {
+  grid-area: e;
+  font-size: 24px;
+  color: #000;
+  list-style: none;
+  text-decoration: none;
+  background-color: #ebedff;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
